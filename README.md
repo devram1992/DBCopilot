@@ -9,5 +9,23 @@ Built entirely on open source technologies, DBCopilot leverages Retrieval-Augmen
 To provide a single intelligent platform that enables database engineers to interact with enterprise knowledge, monitoring systems, logs, incidents, and operational data using natural language.
 
 
+## Technology Stack
+
+| Requirement | Tool |
+|---|---|
+| LLM Runtime | **Ollama** |
+| LLM | **Qwen / Llama / Mistral** |
+| Embeddings | **BGE-M3** |
+| Vector Database | **PostgreSQL + pgvector** |
+| Backend | **Python + FastAPI** |
+| RAG Framework | **LlamaIndex / LangChain** |
+| UI | **Open WebUI / React** |
+| Authentication | **Keycloak** |
+| Cache | **Redis** |
+| Monitoring | **Prometheus + Grafana** |
+| Logs | **Loki** |
+| Containers | **Docker** |
+| Production Orchestration | **Kubernetes** |
+| Secrets Management | **HashiCorp Vault** |
 
 
